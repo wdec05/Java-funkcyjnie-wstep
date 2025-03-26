@@ -1,0 +1,56 @@
+Pytanie 1
+Który interfejs funkcyjny jest używany do transformacji obiektu typu T na typ R?
+a) Predicate<T>
+b) Function<T, R>
+c) Supplier<T>
+d) Consumer<T>
+Poprawna odpowiedź: b) Function<T, R>
+
+
+Pytanie 2
+Co wypisze następujący kod?
+List<String> words = List.of("a", "bb", "ccc");
+long count = words.stream()
+    .filter(s -> s.length() > 1)
+    .count();
+System.out.println(count);
+a) 3
+b) 2
+c) 1
+d) 0
+Poprawna odpowiedź: b) 2
+
+
+Pytanie 3
+Które wyrażenie lambda zastępuje anonimową klasę:
+Runnable r = new Runnable() {
+    @Override
+    public void run() {
+        System.out.println("Hello");
+    }
+};
+a) Runnable r = () -> "Hello";
+b) Runnable r = () -> System.out.println("Hello");
+c) Runnable r = System.out::println;
+d) Runnable r = "Hello"::toString;
+Poprawna odpowiedź: b) Runnable r = () -> System.out.println("Hello");
+
+
+Pytanie 4
+Do czego służy metoda reduce() w strumieniach?
+a) Do filtrowania elementów.
+b) Do łączenia elementów w jeden wynik (np. suma, konkatenacja).
+c) Do wypisywania elementów.
+d) Do sortowania elementów.
+Poprawna odpowiedź: b) Do łączenia elementów w jeden wynik.
+
+
+Pytanie 5
+Która operacja na strumieniu jest terminalna?
+a) filter()
+b) map()
+c) forEach()
+d) sorted()
+Poprawna odpowiedź: c) forEach()
+
+
