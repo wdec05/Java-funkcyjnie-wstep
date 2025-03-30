@@ -1,8 +1,8 @@
 # Java-funkcyjnie-wstep
-Zadania:
+## Zadania:
 
 Zadanie 1:
--Użyj Predicate do wyfiltrowania książek wydanych po 1900 roku.
+- Użyj Predicate do wyfiltrowania książek wydanych po 1900 roku.
 
 Zadanie 2:
 - Oblicz średni rok wydania wszystkich książek.
@@ -23,11 +23,11 @@ Zadanie 4:
 
 Zadanie 5:
 - Przekształć poniższy kod na wersję funkcyjną:
-<code>
+<block>
 List<String> titles = new ArrayList<>();
 for (Book book : books) {
     if (book.getYear() > 1850) {
         titles.add(book.getTitle().toUpperCase());
     }
 }
-</code>
+</block>
