@@ -1,17 +1,33 @@
 # Java-funkcyjnie-wstep
-Zadania: (w trakcie modyfikacji)
+Zadania:
 
 Zadanie 1:
-- Filtruj książki wydane po 1900 roku (użyj Predicate).
+-Użyj Predicate do wyfiltrowania książek wydanych po 1900 roku.
 
 Zadanie 2:
-- Oblicz średni rok wydania (użyj mapToInt i average).
+- Oblicz średni rok wydania wszystkich książek.
+<details>
+  <summary>Wskazówka</summary> 
+ Użyj mapToInt i average
+</details>
 
 Zadanie 3:
-- Posortuj książki po ocenie malejąco (użyj Comparator.comparing).
+- Posortuj książki malejąco po ocenie, a następnie po tytule (alfabetycznie).
+<details>
+  <summary>Wskazówka</summary> 
+  Użyj metody comparing i thenComparing z klasy Comparator
+</details>
 
 Zadanie 4:
-(W trakcie) Przetwarzanie danych z pliku.
+- Wczytaj plik books.csv (format: tytuł,autor,rok,ocena), przefiltruj książki z oceną ≥ 4.0 i zapisz je do nowego pliku.
 
 Zadanie 5:
-(W trakcie) Przetwarzanie kodu imperatywnego na funkcyjny
+- Przekształć poniższy kod na wersję funkcyjną:
+<code>
+List<String> titles = new ArrayList<>();
+for (Book book : books) {
+    if (book.getYear() > 1850) {
+        titles.add(book.getTitle().toUpperCase());
+    }
+}
+</code>
