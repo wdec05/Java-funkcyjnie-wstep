@@ -1,4 +1,4 @@
-# Java-funkcyjnie-wstep
+# Java funkcyjnie - Wstęp
 ## Zadania:
 
 Zadanie 1:
