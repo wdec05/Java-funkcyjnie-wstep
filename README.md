@@ -23,11 +23,11 @@ Zadanie 4:
 
 Zadanie 5:
 - Przekształć poniższy kod na wersję funkcyjną:
-<block>
+```
 List<String> titles = new ArrayList<>();
 for (Book book : books) {
     if (book.getYear() > 1850) {
         titles.add(book.getTitle().toUpperCase());
     }
 }
-</block>
+```
