@@ -15,7 +15,7 @@ Zadanie 3:
 - Posortuj książki malejąco po ocenie, a następnie po tytule (alfabetycznie).
 <details>
   <summary>Wskazówka</summary> 
-  Użyj metody comparing i thenComparing z klasy Comparator
+  Użyj metody comparing i thenComparing z interfejsu Comparator
 </details>
 
 Zadanie 4:
