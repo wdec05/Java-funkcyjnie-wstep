@@ -6,10 +6,6 @@ Zadanie 1:
 
 Zadanie 2:
 - Oblicz średni rok wydania wszystkich książek.
-  <details>
-  <summary>Wskazówka</summary> 
-   Użyj mapToInt i average
-  </details>
 
 Zadanie 3:
 - Posortuj książki malejąco po ocenie, a następnie po tytule (alfabetycznie).
