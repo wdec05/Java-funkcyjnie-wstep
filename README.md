@@ -1,5 +1,7 @@
 # Java funkcyjnie - Wstęp
 ## Zadania:
+Pobierz pliki potrzebne do wykonania zadań: Book.java, books.csv.
+Rozwiązania wyślij na UPEL.
 
 Zadanie 1:
 - Użyj Predicate do wyfiltrowania książek wydanych po 1900 roku.
