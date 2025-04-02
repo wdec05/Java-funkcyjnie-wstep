@@ -20,17 +20,21 @@ Zadanie 4:
 - Wczytaj plik books.csv (format: tytuł,autor,rok,ocena), przefiltruj książki z oceną ≥ 4.0 i zapisz je do nowego pliku.
   <details>
   <summary>Wskazówka</summary>
-    
-    List<Book> books = Files.lines(Paths.get("books.csv"))
+  ```  
+    Wczytaj plik w ten sposób
+      ```
+      
+      List<Book> books = Files.lines(Paths.get("books.csv"))
             .map(line -> {
                 String[] parts = line.split(",");
                 return new Book(
-                    parts[0], // title
-                    parts[1], // author
-                    Integer.parseInt(parts[2]), // year
-                    Double.parseDouble(parts[3]) // rating
+                    parts[0],
+                    parts[1],
+                    Integer.parseInt(parts[2]),
+                    Double.parseDouble(parts[3])
                 );
-      Wczytaj w ten sposób plik
+            })
+            .collect(Collectors.toList());
   </details>
 
 Zadanie 5:
